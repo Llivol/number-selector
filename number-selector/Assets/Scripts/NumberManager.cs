@@ -5,18 +5,25 @@ using UnityEngine.UI;
 
 public class NumberManager : MonoBehaviour
 {
-    private const int MIN_VALUE = 0;
-    private const int MAX_VALUE = 100;
+    private const int MIN_VALUE = 1;
+    private const int MAX_VALUE = 10000000;
 
     [SerializeField] private NumberText numberText;
-    
-    private int currentNumber;
+    [SerializeField] private Button btnNext;
+    private int currentNumber = 1000;
 
     private void Start()
     {
+        btnNext.onClick.AddListener(onNext);
         generateNumber();
         numberText.SetNumber(currentNumber);
         numberText.Show();
+    }
+
+    private void onNext()
+    {
+        generateNumber();
+        numberText.SetNumber(currentNumber);
     }
 
     private void generateNumber()

@@ -21,38 +21,40 @@ public class NumberText : MonoBehaviour
 
     public void SetNumber(int num)
     {
-        txtNumber.text = NumberToText(num);
+        txtNumber.text = num.ToString() + "- " + NumberToText(num);
     }
 
     private string NumberToText(int num)
     {
-        if (num < 0)
-            return "Minus " + NumberToText(-num);
-        else if (num == 0)
-            return "";
-        else if (num <= 19)
-            return new string[] {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight",
-         "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen",
-         "Seventeen", "Eighteen", "Nineteen"}[num - 1] + " ";
+        if (num <= 29)
+            return new string[] {"", "UNO", "DOS", "TRES", "CUATRO", "CINCO", "SEIS", "SIETE", "OCHO",
+         "NUEVE", "DIEZ", "ONCE", "DOCE", "TRECE", "CATORCE", "QUINCE", "DIECISÉIS",
+         "DIECISIETE", "DIECIOCHO", "DIECINUEVE", "VEINTE", "VEINTIUNO", "VEINTIDÓS", "VEINTITRÉS",
+         "VEINTICUATRO", "VEINTICINCO", "VEINTISÉIS", "VEINTISIETE", "VEINTIOCHO", "VEINTINUEVE"}[num];
         else if (num <= 99)
-            return new string[] {"Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy",
-         "Eighty", "Ninety"}[num / 10 - 2] + " " + NumberToText(num % 10);
+        {
+            string str = new string[] {"TREINTA", "CUARENTA", "CINCUENTA", "SESENTA", "SETENTA",
+         "OCHENTA", "NOVENTA"}[num / 10 - 3];
+
+            if ((num % 10) != 0) str += " Y " + NumberToText(num % 10);
+
+            return str;
+        }
+        else if (num == 100)
+            return "CIEN";
         else if (num <= 199)
-            return "One Hundred " + NumberToText(num % 100);
+            return "CIENTO " + NumberToText(num % 100);
         else if (num <= 999)
-            return NumberToText(num / 100) + "Hundreds " + NumberToText(num % 100);
+            return new string[] { "DOSCIENTOS", "TRESCIENTOS", "CUATROCIENTOS", "QUINIENTOS", "SEISCIENTOS",
+            "SETECIENTOS", "OCHOCIENTOS", "NOVECIENTOS" }[num / 100 - 2] + " " + NumberToText(num % 100);
         else if (num <= 1999)
-            return "One Thousand " + NumberToText(num % 1000);
+            return "MIL " + NumberToText(num % 1000);
         else if (num <= 999999)
-            return NumberToText(num / 1000) + "Thousands " + NumberToText(num % 1000);
+            return NumberToText(num / 1000) + " MIL " + NumberToText(num % 1000);
         else if (num <= 1999999)
-            return "One Million " + NumberToText(num % 1000000);
-        else if (num <= 999999999)
-            return NumberToText(num / 1000000) + "Millions " + NumberToText(num % 1000000);
-        else if (num <= 1999999999)
-            return "One Billion " + NumberToText(num % 1000000000);
+            return "UN MILLÓN " + NumberToText(num % 1000000);
         else
-            return NumberToText(num / 1000000000) + "Billions " + NumberToText(num % 1000000000);
+            return NumberToText(num / 1000000) + " MILLONES " + NumberToText(num % 1000000);
     }
 
     private IEnumerator fadeIn(Text text)
