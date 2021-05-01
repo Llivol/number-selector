@@ -2,7 +2,7 @@
 
 ###### Prueba técnica Unity Developer Innovamat por Adrià Puigdellívol
 
-### La clase _NumberManager_
+## La clase _NumberManager_
 
 La clase _NumberManager_ es la encargada de gestionar el estado del juego. Almacena el número correcto, los intentos, se encarga de actualizar el panel de aciertos y fallos y es la que ejecuta las corrutinas del bucle de juego. 
 
@@ -10,29 +10,22 @@ _NumberManager_ es un **singleton**. Se ha escogido este arquetipo de diseño po
 
 El **singleton** también permite que toda la aplicación pueda acceder a los atributos y funciones publicas de la clase. Lo que ha sido útil para conocer cual es el número correcto en todo momento sin tener que replicar variables.
 
-### Las componentes _Fade_
+## Las componentes _Fade_
 
 Se han creado tres componentes _Fade_: _FadeText_, _FadeImage_ y _FadeButton_. Que extienden de los componentes nativos de Unity _Text_, _Image_ y _Button_ respectivamente. Estas clases añaden la funcionalidad de aparecer y desvanecerse (_fade in_ y _fade out_) a los componentes de los que heredan. 
 
 Al implementar la funcionalidad directamente en los componentes, se ha podido reutilizar la animación en toda la aplicación sin tener que replicar código. 
 
-### La función _numberToText_
+## La función _numberToText_
 
 ```c#
 	private string numberToText(int num)
     {
         if (num <= 29)
-            return new string[] {"", "UNO", "DOS", "TRES", "CUATRO", "CINCO", "SEIS", 
-                                 "SIETE", "OCHO", "NUEVE", "DIEZ", "ONCE", "DOCE", 
-                                 "TRECE", "CATORCE", "QUINCE", "DIECISÉIS", "DIECISIETE", 
-                                 "DIECIOCHO", "DIECINUEVE", "VEINTE", "VEINTIUNO", 
-                                 "VEINTIDÓS", "VEINTITRÉS", "VEINTICUATRO", 
-                                 "VEINTICINCO", "VEINTISÉIS", "VEINTISIETE", 
-                                 "VEINTIOCHO", "VEINTINUEVE"}[num];
+            return new string[] {"", "UNO", "DOS", "TRES", "CUATRO", "CINCO", "SEIS", "SIETE", "OCHO", "NUEVE", "DIEZ", "ONCE", "DOCE", "TRECE", "CATORCE", "QUINCE", "DIECISÉIS", "DIECISIETE", "DIECIOCHO", "DIECINUEVE", "VEINTE", "VEINTIUNO", "VEINTIDÓS", "VEINTITRÉS", "VEINTICUATRO", "VEINTICINCO", "VEINTISÉIS", "VEINTISIETE", "VEINTIOCHO", "VEINTINUEVE"}[num];
         else if (num <= 99)
         {
-            string str = new string[] {"TREINTA", "CUARENTA", "CINCUENTA", "SESENTA", 
-                                       "SETENTA", "OCHENTA", "NOVENTA"}[num / 10 - 3];
+            string str = new string[] {"TREINTA", "CUARENTA", "CINCUENTA", "SESENTA", "SETENTA", "OCHENTA", "NOVENTA"}[num / 10 - 3];
             if ((num % 10) != 0) str += " Y " + numberToText(num % 10);
             return str;
         }
@@ -41,9 +34,7 @@ Al implementar la funcionalidad directamente en los componentes, se ha podido re
         else if (num <= 199)
             return "CIENTO " + numberToText(num % 100);
         else if (num <= 999)
-            return new string[] { "DOSCIENTOS", "TRESCIENTOS", "CUATROCIENTOS", 
-                                 "QUINIENTOS", "SEISCIENTOS", "SETECIENTOS", 
-                                 "OCHOCIENTOS", "NOVECIENTOS" }[num / 100 - 2] + " " + 									numberToText(num % 100);
+            return new string[] { "DOSCIENTOS", "TRESCIENTOS", "CUATROCIENTOS", "QUINIENTOS", "SEISCIENTOS", "SETECIENTOS", "OCHOCIENTOS", "NOVECIENTOS" }[num / 100 - 2] + " " + numberToText(num % 100);
         else if (num <= 1999)
             return "MIL " + numberToText(num % 1000);
         else if (num <= 999999)
@@ -60,18 +51,18 @@ La función _numberToText_ se encuentra en la clase _NumberText_ y, como su nomb
 
 Para poder realizar esta transformación se ha implementado una función recursiva, ya que los nombres de los números en español estan formados por partes fácilmente reutilizables.
 
-#### Importante!
+### Importante!
 
 Esta función no soporta el numero **0**, ya que rompería funcionalidad en la gran mayoría de múltiplos de diez. 
 
-### El clase _Config_
+## El clase _Config_
 
 La clase _Config_ es una clase estática que almacena variables _readonly_ que se utilizan a lo largo de toda la aplicación. Se ha escogido esta implementación por dos motivos:
 
 * Permite reutilizar valores como el tiempo de las animaciones de aparecer y desvanecerse sin tener que replicarlo en cada una de las clases _Fade_.
 * Permite modificar atributos importantes como el rango de valores de los números o el color de los botones sin tener que buscarlos en diversos ficheros.
 
-### EXTRA: El selector de dificultad
+## EXTRA: El selector de dificultad
 
 Se ha implementado una funcionalidad extra no requerida: Un **selector de dificultad**. Esta funcionalidad modifica ligeramente el ciclo de ejecución que se pedía en el enunciado: 
 
