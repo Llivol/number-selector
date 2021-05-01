@@ -19,15 +19,4 @@ public class FadeButtonController : MonoBehaviour
         imgFade.Hide();
         txtFade.Hide();
     }
-
-    private void Awake()
-    {
-        btnFade.onClick.AddListener(onClickButton);
-    }
-
-    private void onClickButton()
-    {
-        btnFade.interactable = false;
-    }
-
 }

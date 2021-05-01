@@ -23,6 +23,7 @@ public class FadeImage : Image
             this.color = curColor;
             yield return null;
         }
+        this.raycastTarget = true;
     }
 
     private IEnumerator fadeOut()
@@ -34,5 +35,7 @@ public class FadeImage : Image
             this.color = curColor;
             yield return null;
         }
+
+        this.raycastTarget = false;
     }
 }

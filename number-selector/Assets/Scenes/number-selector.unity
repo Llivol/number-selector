@@ -120,6 +120,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &194292153 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8068550863075353712, guid: a76478079195ae233aeceb6c7de1f2b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1375898711}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f33d09150fddac3698f579675f415d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &381854970
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,7 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.12156863, g: 0.1254902, b: 0.13725491, a: 0}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -332,7 +344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -358,6 +370,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532256692}
   m_CullTransparentMesh: 0
+--- !u!114 &533846470 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8068550863075353712, guid: a76478079195ae233aeceb6c7de1f2b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1789805581}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f33d09150fddac3698f579675f415d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &619061839 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8068550863075353712, guid: a76478079195ae233aeceb6c7de1f2b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1469288219}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f33d09150fddac3698f579675f415d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &647784080
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,7 +445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.12156863, g: 0.1254902, b: 0.13725491, a: 0}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -611,6 +647,10 @@ MonoBehaviour:
   - {fileID: 1983166842}
   - {fileID: 1202454749}
   - {fileID: 1847472691}
+  numberButtons:
+  - {fileID: 619061839}
+  - {fileID: 533846470}
+  - {fileID: 194292153}
 --- !u!1 &995017281
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,6 +1279,31 @@ PrefabInstance:
       propertyPath: m_TargetGraphic
       value: 
       objectReference: {fileID: 1469288221}
+    - target: {fileID: 4406925510976211060, guid: a76478079195ae233aeceb6c7de1f2b9,
+        type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8948999743144036290, guid: a76478079195ae233aeceb6c7de1f2b9,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8948999743144036290, guid: a76478079195ae233aeceb6c7de1f2b9,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8948999743144036290, guid: a76478079195ae233aeceb6c7de1f2b9,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8948999743144036290, guid: a76478079195ae233aeceb6c7de1f2b9,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76478079195ae233aeceb6c7de1f2b9, type: 3}
 --- !u!224 &1469288220 stripped
@@ -1383,7 +1448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.12156863, g: 0.1254902, b: 0.13725491, a: 0}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
