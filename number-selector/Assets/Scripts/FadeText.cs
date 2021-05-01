@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class FadeText : Text
 {
-    private const float FADE_SECONDS = 2f;
-
     public void Show()
     {
         StartCoroutine(fadeIn());
@@ -22,7 +20,7 @@ public class FadeText : Text
         Color curColor = this.color;
         while (curColor.a < 1f)
         {
-            curColor.a = curColor.a + (1 / FADE_SECONDS * Time.deltaTime);
+            curColor.a = curColor.a + (1 / Config.FADE_TIME_IN_SECONDS * Time.deltaTime);
             this.color = curColor;
             yield return null;
         }
@@ -33,7 +31,7 @@ public class FadeText : Text
         Color curColor = this.color;
         while (curColor.a > 0f)
         {
-            curColor.a = curColor.a - (1 / FADE_SECONDS * Time.deltaTime);
+            curColor.a = curColor.a - (1 / Config.FADE_TIME_IN_SECONDS * Time.deltaTime);
             this.color = curColor;
             yield return null;
         }

@@ -5,16 +5,14 @@ using UnityEngine.UI;
 
 public class FadeButton : Button
 {
-    private const float FADE_SECONDS = 2f;
-
     public void SetInteractableDelayed(bool value)
     {
-        StartCoroutine(waitForSecondsAndSetInteractable(FADE_SECONDS));
+        StartCoroutine(waitForSecondsAndSetInteractable());
     }
 
-    private IEnumerator waitForSecondsAndSetInteractable(float seconds)
+    private IEnumerator waitForSecondsAndSetInteractable()
     {
-        yield return new WaitForSeconds(seconds);
+        yield return new WaitForSeconds(Config.FADE_TIME_IN_SECONDS);
         this.interactable = true;
     }
 }
