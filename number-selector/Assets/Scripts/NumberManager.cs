@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NumberManager : MonoBehaviour
 {
@@ -8,18 +9,24 @@ public class NumberManager : MonoBehaviour
 
     [SerializeField] private NumberText txtNumber;
     [SerializeField] private FadeText txtDifficulty;
+    [SerializeField] private Text txtScore;
     [SerializeField] private DifficultyButton[] difficultyButtons;
     [SerializeField] private NumberButton[] numberButtons;
 
+    private int correctCount = 0;
+    private int wrongCount = 0; 
     private int currentNumber;
     private int currentButtonIdx;
     private int difficulty;
+    private int lives;
 
     private void Awake()
     {
 
         if (Instance == null) { Instance = this; }
         else if (Instance != this) { throw new DuplicateSingletonException("NumberManager"); }
+
+        updateScore();
 
         txtDifficulty.Show();
 
@@ -45,13 +52,26 @@ public class NumberManager : MonoBehaviour
 
         this.difficulty = difficulty;
 
-        StartCoroutine(StartGame());
+        StartCoroutine(StartRound());
     }
 
-    private IEnumerator StartGame()
+    public void OnClickCorrect()
+    {
+        correctCount++;
+        updateScore();
+    }
+
+    public void OnClickError()
+    {
+        wrongCount++;
+        updateScore();
+    }
+
+    private IEnumerator StartRound()
     {
         yield return new WaitForSeconds(Config.FADE_TIME_IN_SECONDS);
 
+        lives = Config.LIVES_PER_ROUND;
         currentNumber = generateNumber();
         txtNumber.SetNumberToText(currentNumber);
         txtNumber.Show();
@@ -92,6 +112,11 @@ public class NumberManager : MonoBehaviour
     private int generateNumber()
     {
         return Random.Range(Config.MIN_VALUE, Config.MAX_VALUES[difficulty]);
+    }
+
+    private void updateScore()
+    {
+        txtScore.text = string.Format(Config.STRING_FORMAT_SCORE, correctCount, wrongCount);
     }
 
     class DuplicateSingletonException : System.Exception

@@ -12,10 +12,12 @@
         if (number == NumberManager.Instance.GetCurrentNumber())
         {
             setCorrectColor();
+            NumberManager.Instance.OnClickCorrect();
         }
         else
         {
             setWrongColor();
+            NumberManager.Instance.OnClickError();
         }
     }
 

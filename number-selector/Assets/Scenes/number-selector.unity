@@ -539,9 +539,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Aciertos: 8
-
-    Fallos: 8'
+  m_Text: 
 --- !u!222 &749727147
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -643,6 +641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   txtNumber: {fileID: 1336852246}
   txtDifficulty: {fileID: 532256694}
+  txtScore: {fileID: 749727146}
   difficultyButtons:
   - {fileID: 1983166842}
   - {fileID: 1202454749}
