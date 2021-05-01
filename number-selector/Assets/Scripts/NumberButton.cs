@@ -7,76 +7,33 @@ public class NumberButton : MonoBehaviour
 {
     private const float FADE_SECONDS = 2f;
 
-    [SerializeField] private Button btnNumber;
-    [SerializeField] private Image imgBackground;
-    [SerializeField] private Text txtNumber;
+    [SerializeField] private FadeButton btnNumber;
+    [SerializeField] private FadeImage imgBackground;
+    [SerializeField] private FadeText txtNumber;
 
     public void Show()
     {
-        StartCoroutine(fadeIn(imgBackground));
-        StartCoroutine(fadeIn(txtNumber));
-        StartCoroutine(waitForSecondsAndEnable(FADE_SECONDS));
+        imgBackground.Show();
+        txtNumber.Show();
+        btnNumber.SetInteractableDelayed(true);
     }
 
     public void Hide()
     {
         btnNumber.interactable = false;
-        StartCoroutine(fadeOut(imgBackground));
-        StartCoroutine(fadeOut(txtNumber));
+        imgBackground.Hide();
+        txtNumber.Hide();
     }
 
     private void Awake()
     {
         btnNumber.onClick.AddListener(onClickNumber);
+        Show();
     }
 
     private void onClickNumber()
     {
         Hide();
-    }
-
-    private IEnumerator fadeIn(Image image)
-    {
-        Color curColor = image.color;
-        while (curColor.a < 1f)
-        {
-            curColor.a = curColor.a + (1 / FADE_SECONDS * Time.deltaTime);
-            image.color = curColor;
-            yield return null;
-        }
-    }
-
-    private IEnumerator fadeIn(Text text)
-    {
-        Color curColor = text.color;
-        while (curColor.a < 1f)
-        {
-            curColor.a = curColor.a + (1 / FADE_SECONDS * Time.deltaTime);
-            text.color = curColor;
-            yield return null;
-        }
-    }
-
-    private IEnumerator fadeOut(Image image)
-    {
-        Color curColor = image.color;
-        while (curColor.a > 0f)
-        {
-            curColor.a = curColor.a - (1 / FADE_SECONDS * Time.deltaTime);
-            image.color = curColor;
-            yield return null;
-        }
-    }
-
-    private IEnumerator fadeOut(Text text)
-    {
-        Color curColor = text.color;
-        while (curColor.a > 0f)
-        {
-            curColor.a = curColor.a - (1 / FADE_SECONDS * Time.deltaTime);
-            text.color = curColor;
-            yield return null;
-        }
     }
 
     private IEnumerator waitForSecondsAndEnable(float seconds)

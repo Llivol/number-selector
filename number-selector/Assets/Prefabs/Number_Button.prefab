@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8551881354039616335}
   - component: {fileID: 8589028527709980320}
-  - component: {fileID: 8242733773259066537}
-  - component: {fileID: 318777245911854335}
+  - component: {fileID: 8948999743144036290}
+  - component: {fileID: 4406925510976211060}
   - component: {fileID: 8068550863075353712}
   m_Layer: 5
   m_Name: Number_Button
@@ -48,7 +48,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5445981794236057742}
   m_CullTransparentMesh: 0
---- !u!114 &8242733773259066537
+--- !u!114 &8948999743144036290
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -57,7 +57,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5445981794236057742}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f9d6cbbba40a3e2d8ece0dd6333f6bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -67,7 +67,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &318777245911854335
+--- !u!114 &4406925510976211060
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -85,7 +85,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5445981794236057742}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Script: {fileID: 11500000, guid: ccf1bc86fcf6ac76490d11d19691bbf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -114,8 +114,8 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
-  m_TargetGraphic: {fileID: 8242733773259066537}
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 0}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -131,9 +131,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f33d09150fddac3698f579675f415d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btnNumber: {fileID: 318777245911854335}
-  imgBackground: {fileID: 8242733773259066537}
-  txtNumber: {fileID: 4221987671502382214}
+  btnNumber: {fileID: 4406925510976211060}
+  imgBackground: {fileID: 8948999743144036290}
+  txtNumber: {fileID: 3801605906917524131}
 --- !u!1 &5858481984497894055
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,7 +144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1937450643569152517}
   - component: {fileID: 6784913862423423661}
-  - component: {fileID: 4221987671502382214}
+  - component: {fileID: 3801605906917524131}
   m_Layer: 5
   m_Name: Number_Text
   m_TagString: Untagged
@@ -179,7 +179,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5858481984497894055}
   m_CullTransparentMesh: 0
---- !u!114 &4221987671502382214
+--- !u!114 &3801605906917524131
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5858481984497894055}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: b54a3148cd8db1a37a59de0655d06e39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -210,4 +210,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 16
+  m_Text: 12

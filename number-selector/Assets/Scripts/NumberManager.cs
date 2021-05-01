@@ -9,21 +9,12 @@ public class NumberManager : MonoBehaviour
     private const int MAX_VALUE = 10000000;
 
     [SerializeField] private NumberText numberText;
-    [SerializeField] private Button btnNext;
-    private int currentNumber = 1000;
+    private int currentNumber;
 
     private void Start()
     {
-        btnNext.onClick.AddListener(onNext);
         generateNumber();
-        numberText.SetNumber(currentNumber);
-        numberText.Show();
-    }
-
-    private void onNext()
-    {
-        generateNumber();
-        numberText.SetNumber(currentNumber);
+        numberText.SetNumberToText(currentNumber);
     }
 
     private void generateNumber()
