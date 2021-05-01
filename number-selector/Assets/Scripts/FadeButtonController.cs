@@ -22,10 +22,10 @@ public class FadeButtonController : MonoBehaviour
 
     private void Awake()
     {
-        btnFade.onClick.AddListener(onClickNumber);
+        btnFade.onClick.AddListener(onClickButton);
     }
 
-    private void onClickNumber()
+    private void onClickButton()
     {
         btnFade.interactable = false;
     }
