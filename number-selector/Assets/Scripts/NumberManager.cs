@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -139,7 +138,7 @@ public class NumberManager : MonoBehaviour
 
     private int generateNumber()
     {
-        return Random.Range(Config.MIN_VALUE, Config.MAX_VALUES[difficulty]);
+        return Random.Range(Config.MIN_NUMBER, Config.MAX_NUMBER[difficulty]);
     }
 
     private void updateScore()
