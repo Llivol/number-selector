@@ -119,8 +119,6 @@ public class NumberManager : MonoBehaviour
         int buttonsLength = numberButtons.Length;
         currentButtonIdx = Random.Range(0, buttonsLength - 1);
 
-        int firstErrorNumber = -1;
-
         for (int i = 0; i < buttonsLength; i++)
         {
             var button = numberButtons[i];
@@ -133,15 +131,22 @@ public class NumberManager : MonoBehaviour
                 int errorNumber;
 
                 do errorNumber = generateNumber();
-                while (errorNumber == currentNumber || errorNumber == firstErrorNumber);
-
-                firstErrorNumber = errorNumber;
+                while (!isUnique(errorNumber, i));
 
                 button.SetNumber(errorNumber);
             }
 
             button.Show();
         }
+    }
+
+    private bool isUnique(int newNumber, int currentIdx)
+    {
+        if (newNumber == currentNumber) return false;
+        
+        for (int i = 0; i < currentIdx; i++) if (newNumber == numberButtons[i].GetNumber()) return false;
+
+        return true;
     }
 
     private void updateScore()
