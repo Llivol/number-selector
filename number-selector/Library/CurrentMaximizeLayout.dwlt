@@ -1,0 +1,2952 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 9}
+  - {fileID: 13}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1920
+    height: 950
+  m_MinSize: {x: 579, y: 244}
+  m_MaxSize: {x: 12004, y: 8044}
+  vertical: 0
+  controlID: 28952
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 110
+    width: 1032
+    height: 493
+  m_ViewDataDictionary: {fileID: 0}
+  m_VSyncEnabled: 0
+  m_MaximizeOnPlay: 1
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 07000000000000000000000006000000000000000000000000000000000000000000000000000000
+  m_TargetDisplay: 0
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 1032
+      height: 476
+    m_Scale: {x: 0.44074073, y: 0.44074073}
+    m_Translation: {x: 516, y: 238}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -1170.7563
+      y: -540
+      width: 2341.5127
+      height: 1080
+    m_MinimalGUI: 1
+  m_defaultScale: 0.44074073
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 1032, y: 493}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000001000000000000
+  m_XRRenderMode: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  - {fileID: 6}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1032
+    height: 950
+  m_MinSize: {x: 102, y: 244}
+  m_MaxSize: {x: 4002, y: 8044}
+  vertical: 1
+  controlID: 28931
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1032
+    height: 512
+  m_MinSize: {x: 102, y: 122}
+  m_MaxSize: {x: 4002, y: 4022}
+  m_ActualView: {fileID: 2}
+  m_Panes:
+  - {fileID: 5}
+  - {fileID: 2}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 110
+    width: 1032
+    height: 493
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowContextualTools: 0
+  m_WindowGUID: 48eaabac6a6d1dbe7bf3e15b3b0f15e5
+  m_Gizmos: 0
+  m_SceneIsLit: 0
+  m_SceneLighting: 1
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 868.7812, y: 536.78406, z: -1004.4073}
+    speed: 2
+    m_Value: {x: 868.7812, y: 536.78406, z: -1004.4073}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_SceneViewState:
+    showFog: 1
+    showMaterialUpdate: 1
+    showSkybox: 0
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+  grid:
+    xGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    yGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 1196.1781
+    speed: 2
+    m_Value: 1196.1781
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.01
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfView: 90
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_ShowGlobalGrid: 1
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 512
+    width: 1032
+    height: 438
+  m_MinSize: {x: 102, y: 122}
+  m_MaxSize: {x: 4002, y: 4022}
+  m_ActualView: {fileID: 8}
+  m_Panes:
+  - {fileID: 7}
+  - {fileID: 8}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 622
+    width: 1032
+    height: 419
+  m_ViewDataDictionary: {fileID: 0}
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Prefabs
+  m_ViewMode: 1
+  m_StartGridSize: 78
+  m_LastFolders:
+  - Assets/Prefabs
+  m_LastFoldersGridSize: 78
+  m_LastProjectPath: /home/llivol/Documentos/github/number-selector/number-selector
+  m_LockTracker:
+    m_IsLocked: 1
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: c42e0000
+    m_LastClickedID: 11972
+    m_ExpandedIDs: 00000000a82c000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 06ea0200
+    m_LastClickedID: 190982
+    m_ExpandedIDs: 00000000a82c000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c62300001628000000000000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 78
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 168
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 622
+    width: 1032
+    height: 419
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1032
+    y: 0
+    width: 447
+    height: 950
+  m_MinSize: {x: 279, y: 72}
+  m_MaxSize: {x: 4004, y: 4022}
+  m_ActualView: {fileID: 10}
+  m_Panes:
+  - {fileID: 10}
+  - {fileID: 11}
+  - {fileID: 12}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1032
+    y: 110
+    width: 445
+    height: 931
+  m_ViewDataDictionary: {fileID: 0}
+  m_OpenAddComponentMenu: 0
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewResizer:
+    m_CachedPref: -193
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_PreviewWindow: {fileID: 0}
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12070, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 260, y: 216}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Profiler
+    m_Image: {fileID: -1089619856830078684, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1172
+    y: 110
+    width: 336
+    height: 430
+  m_ViewDataDictionary: {fileID: 0}
+  m_VertSplit:
+    ID: 12956
+    splitterInitialOffset: 511
+    currentActiveSplitter: -1
+    realSizes: 3501000064000000
+    relativeSizes:
+    - 0.8238255
+    - 0.17617452
+    minSizes: 6400000064000000
+    maxSizes: 0000000000000000
+    lastTotalSize: 409
+    splitSize: 6
+    xOffset: 0
+  m_Recording: 1
+  m_ActiveNativePlatformSupportModule: 
+  m_ViewType: 1
+  m_ShowInactiveDSPChains: 0
+  m_HighlightAudibleDSPChains: 1
+  m_DSPGraphZoomFactor: 1
+  m_CPUFrameDataHierarchyView:
+    m_CpuProfilerOptions: 1
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_MultiColumnHeaderState:
+      m_Columns: []
+      m_VisibleColumns: 
+      m_SortedColumns: 
+    m_DetailedViewType: 0
+    m_DetailedViewSpliterState:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: 0
+      realSizes: 
+      relativeSizes: []
+      minSizes: 
+      maxSizes: 
+      lastTotalSize: 0
+      splitSize: 0
+      xOffset: 0
+    m_DetailedObjectsView:
+      m_TreeViewState:
+        scrollPos: {x: 0, y: 0}
+        m_SelectedIDs: 
+        m_LastClickedID: 0
+        m_ExpandedIDs: 
+        m_RenameOverlay:
+          m_UserAcceptedRename: 0
+          m_Name: 
+          m_OriginalName: 
+          m_EditFieldRect:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: 0
+            height: 0
+          m_UserData: 0
+          m_IsWaitingForDelay: 0
+          m_IsRenaming: 0
+          m_OriginalEventType: 11
+          m_IsRenamingFilename: 0
+          m_ClientGUIView: {fileID: 0}
+        m_SearchString: 
+      m_MultiColumnHeaderState:
+        m_Columns: []
+        m_VisibleColumns: 
+        m_SortedColumns: 
+      m_VertSplit:
+        ID: 0
+        splitterInitialOffset: 0
+        currentActiveSplitter: 0
+        realSizes: 
+        relativeSizes: []
+        minSizes: 
+        maxSizes: 
+        lastTotalSize: 0
+        splitSize: 0
+        xOffset: 0
+    m_DetailedCallsView:
+      m_VertSplit:
+        ID: 0
+        splitterInitialOffset: 0
+        currentActiveSplitter: 0
+        realSizes: 
+        relativeSizes: []
+        minSizes: 
+        maxSizes: 
+        lastTotalSize: 0
+        splitSize: 0
+        xOffset: 0
+      m_CalleesTreeView:
+        m_ViewState:
+          scrollPos: {x: 0, y: 0}
+          m_SelectedIDs: 
+          m_LastClickedID: 0
+          m_ExpandedIDs: 
+          m_RenameOverlay:
+            m_UserAcceptedRename: 0
+            m_Name: 
+            m_OriginalName: 
+            m_EditFieldRect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            m_UserData: 0
+            m_IsWaitingForDelay: 0
+            m_IsRenaming: 0
+            m_OriginalEventType: 11
+            m_IsRenamingFilename: 0
+            m_ClientGUIView: {fileID: 0}
+          m_SearchString: 
+        m_ViewHeaderState:
+          m_Columns: []
+          m_VisibleColumns: 
+          m_SortedColumns: 
+      m_CallersTreeView:
+        m_ViewState:
+          scrollPos: {x: 0, y: 0}
+          m_SelectedIDs: 
+          m_LastClickedID: 0
+          m_ExpandedIDs: 
+          m_RenameOverlay:
+            m_UserAcceptedRename: 0
+            m_Name: 
+            m_OriginalName: 
+            m_EditFieldRect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            m_UserData: 0
+            m_IsWaitingForDelay: 0
+            m_IsRenaming: 0
+            m_OriginalEventType: 11
+            m_IsRenamingFilename: 0
+            m_ClientGUIView: {fileID: 0}
+          m_SearchString: 
+        m_ViewHeaderState:
+          m_Columns: []
+          m_VisibleColumns: 
+          m_SortedColumns: 
+  m_GPUFrameDataHierarchyView:
+    m_CpuProfilerOptions: 1
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_MultiColumnHeaderState:
+      m_Columns: []
+      m_VisibleColumns: 
+      m_SortedColumns: 
+    m_DetailedViewType: 0
+    m_DetailedViewSpliterState:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: 0
+      realSizes: 
+      relativeSizes: []
+      minSizes: 
+      maxSizes: 
+      lastTotalSize: 0
+      splitSize: 0
+      xOffset: 0
+    m_DetailedObjectsView:
+      m_TreeViewState:
+        scrollPos: {x: 0, y: 0}
+        m_SelectedIDs: 
+        m_LastClickedID: 0
+        m_ExpandedIDs: 
+        m_RenameOverlay:
+          m_UserAcceptedRename: 0
+          m_Name: 
+          m_OriginalName: 
+          m_EditFieldRect:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: 0
+            height: 0
+          m_UserData: 0
+          m_IsWaitingForDelay: 0
+          m_IsRenaming: 0
+          m_OriginalEventType: 11
+          m_IsRenamingFilename: 0
+          m_ClientGUIView: {fileID: 0}
+        m_SearchString: 
+      m_MultiColumnHeaderState:
+        m_Columns: []
+        m_VisibleColumns: 
+        m_SortedColumns: 
+      m_VertSplit:
+        ID: 0
+        splitterInitialOffset: 0
+        currentActiveSplitter: 0
+        realSizes: 
+        relativeSizes: []
+        minSizes: 
+        maxSizes: 
+        lastTotalSize: 0
+        splitSize: 0
+        xOffset: 0
+    m_DetailedCallsView:
+      m_VertSplit:
+        ID: 0
+        splitterInitialOffset: 0
+        currentActiveSplitter: 0
+        realSizes: 
+        relativeSizes: []
+        minSizes: 
+        maxSizes: 
+        lastTotalSize: 0
+        splitSize: 0
+        xOffset: 0
+      m_CalleesTreeView:
+        m_ViewState:
+          scrollPos: {x: 0, y: 0}
+          m_SelectedIDs: 
+          m_LastClickedID: 0
+          m_ExpandedIDs: 
+          m_RenameOverlay:
+            m_UserAcceptedRename: 0
+            m_Name: 
+            m_OriginalName: 
+            m_EditFieldRect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            m_UserData: 0
+            m_IsWaitingForDelay: 0
+            m_IsRenaming: 0
+            m_OriginalEventType: 11
+            m_IsRenamingFilename: 0
+            m_ClientGUIView: {fileID: 0}
+          m_SearchString: 
+        m_ViewHeaderState:
+          m_Columns: []
+          m_VisibleColumns: 
+          m_SortedColumns: 
+      m_CallersTreeView:
+        m_ViewState:
+          scrollPos: {x: 0, y: 0}
+          m_SelectedIDs: 
+          m_LastClickedID: 0
+          m_ExpandedIDs: 
+          m_RenameOverlay:
+            m_UserAcceptedRename: 0
+            m_Name: 
+            m_OriginalName: 
+            m_EditFieldRect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            m_UserData: 0
+            m_IsWaitingForDelay: 0
+            m_IsRenaming: 0
+            m_OriginalEventType: 11
+            m_IsRenamingFilename: 0
+            m_ClientGUIView: {fileID: 0}
+          m_SearchString: 
+        m_ViewHeaderState:
+          m_Columns: []
+          m_VisibleColumns: 
+          m_SortedColumns: 
+  m_ClearOnPlay: 0
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1382
+    y: 78
+    width: 536
+    height: 962
+  m_ViewDataDictionary: {fileID: 0}
+  m_TestTypeToolbarIndex: 1
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 12}
+    newResultList:
+    - id: '[phoenix][suite]'
+      uniqueId: 
+      name: phoenix
+      fullName: phoenix
+      resultStatus: 2
+      duration: 7.8738585
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[/home/llivol/Documentos/github/phoenix/Library/ScriptAssemblies/PlayModeTests.dll][suite]'
+      uniqueId: 
+      name: PlayModeTests.dll
+      fullName: /home/llivol/Documentos/github/phoenix/Library/ScriptAssemblies/PlayModeTests.dll
+      resultStatus: 2
+      duration: 7.763797
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[Tests][suite]'
+      uniqueId: 
+      name: Tests
+      fullName: Tests
+      resultStatus: 2
+      duration: 7.692647
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[PlayModeTests][Tests.AuthPlayModeTestScript][suite]'
+      uniqueId: 
+      name: AuthPlayModeTestScript
+      fullName: Tests.AuthPlayModeTestScript
+      resultStatus: 1
+      duration: 2.0346928
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[PlayModeTests][Tests.AuthPlayModeTestScript.checkAutologin]'
+      uniqueId: 
+      name: checkAutologin
+      fullName: Tests.AuthPlayModeTestScript.checkAutologin
+      resultStatus: 1
+      duration: 1.0910879
+      messages: 
+      output: 'Your address, sir: 0xEab3bed72622f13c3fd948Ac806F71Aa5c586a92
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[PlayModeTests][Tests.AuthPlayModeTestScript.processAttemptLoginFailure]'
+      uniqueId: 
+      name: processAttemptLoginFailure
+      fullName: Tests.AuthPlayModeTestScript.processAttemptLoginFailure
+      resultStatus: 1
+      duration: 0.5505099
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[PlayModeTests][Tests.AuthPlayModeTestScript.processAttemptLoginSuccess]'
+      uniqueId: 
+      name: processAttemptLoginSuccess
+      fullName: Tests.AuthPlayModeTestScript.processAttemptLoginSuccess
+      resultStatus: 1
+      duration: 0.3221774
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[PlayModeTests][Tests.MyTeamPlayModeTestScript][suite]'
+      uniqueId: 
+      name: MyTeamPlayModeTestScript
+      fullName: Tests.MyTeamPlayModeTestScript
+      resultStatus: 1
+      duration: 0.8781208
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[PlayModeTests][Tests.MyTeamPlayModeTestScript.addPlayersList]'
+      uniqueId: 
+      name: addPlayersList
+      fullName: Tests.MyTeamPlayModeTestScript.addPlayersList
+      resultStatus: 1
+      duration: 0.8336795
+      messages: 
+      output: 'Your address, sir: 0xEab3bed72622f13c3fd948Ac806F71Aa5c586a92
+
+        Loading Player Preview...
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[PlayModeTests][Tests.SidebarPlayModeTestScript][suite]'
+      uniqueId: 
+      name: SidebarPlayModeTestScript
+      fullName: Tests.SidebarPlayModeTestScript
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[PlayModeTests][Tests.SidebarPlayModeTestScript.checkCompactSidebarIsNotActiveByDefault]'
+      uniqueId: 
+      name: checkCompactSidebarIsNotActiveByDefault
+      fullName: Tests.SidebarPlayModeTestScript.checkCompactSidebarIsNotActiveByDefault
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[PlayModeTests][Tests.SidebarPlayModeTestScript.checkSidebarCanBeToggled]'
+      uniqueId: 
+      name: checkSidebarCanBeToggled
+      fullName: Tests.SidebarPlayModeTestScript.checkSidebarCanBeToggled
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[PlayModeTests][Tests.SidebarPlayModeTestScript.checkSidebarIsActive]'
+      uniqueId: 
+      name: checkSidebarIsActive
+      fullName: Tests.SidebarPlayModeTestScript.checkSidebarIsActive
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[PlayModeTests][Tests.SidebarPlayModeTestScript.checkSidebarStatusIsPersistent]'
+      uniqueId: 
+      name: checkSidebarStatusIsPersistent
+      fullName: Tests.SidebarPlayModeTestScript.checkSidebarStatusIsPersistent
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[PlayModeTests][Tests.SidebarPlayModeTestScript.checkThereAreEightFields]'
+      uniqueId: 
+      name: checkThereAreEightFields
+      fullName: Tests.SidebarPlayModeTestScript.checkThereAreEightFields
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[PlayModeTests][Tests.SingleScenePlayModeTestScript][suite]'
+      uniqueId: 
+      name: SingleScenePlayModeTestScript
+      fullName: Tests.SingleScenePlayModeTestScript
+      resultStatus: 1
+      duration: 1.3746825
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[PlayModeTests][Tests.SingleScenePlayModeTestScript.checkNoDuplicateScreens]'
+      uniqueId: 
+      name: checkNoDuplicateScreens
+      fullName: Tests.SingleScenePlayModeTestScript.checkNoDuplicateScreens
+      resultStatus: 1
+      duration: 0.6997791
+      messages: 
+      output: 'Your address, sir: 0xEab3bed72622f13c3fd948Ac806F71Aa5c586a92
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[PlayModeTests][Tests.SingleScenePlayModeTestScript.checkOnlyLandingScreenIsActive]'
+      uniqueId: 
+      name: checkOnlyLandingScreenIsActive
+      fullName: Tests.SingleScenePlayModeTestScript.checkOnlyLandingScreenIsActive
+      resultStatus: 1
+      duration: 0.6483661
+      messages: 
+      output: 'Your address, sir: 0xEab3bed72622f13c3fd948Ac806F71Aa5c586a92
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    m_ResultText: checkCompactSidebarIsNotActiveByDefault (0,000s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 6719261d
+      m_LastClickedID: 489036135
+      m_ExpandedIDs: 83e643864fd3139baf30bde3045f1af33beef20245d8f73c6ef8ae7affffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 12}
+    newResultList:
+    - id: '[phoenix][suite]'
+      uniqueId: 
+      name: phoenix
+      fullName: phoenix
+      resultStatus: 1
+      duration: 3.5723813
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[/home/llivol/Documentos/github/phoenix/Library/ScriptAssemblies/EditModeTests.dll][suite]'
+      uniqueId: 
+      name: EditModeTests.dll
+      fullName: /home/llivol/Documentos/github/phoenix/Library/ScriptAssemblies/EditModeTests.dll
+      resultStatus: 1
+      duration: 3.4822938
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[Tests][suite]'
+      uniqueId: 
+      name: Tests
+      fullName: Tests
+      resultStatus: 1
+      duration: 3.4240062
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.AuctionClassificatorTests][suite]'
+      uniqueId: 
+      name: AuctionClassificatorTests
+      fullName: Tests.AuctionClassificatorTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.AuctionClassificatorTests.ClassificateAssetFrozenAuctionWithBids]'
+      uniqueId: 
+      name: ClassificateAssetFrozenAuctionWithBids
+      fullName: Tests.AuctionClassificatorTests.ClassificateAssetFrozenAuctionWithBids
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.AuctionClassificatorTests.ClassificateAssetFrozenAuctionWithNoBids]'
+      uniqueId: 
+      name: ClassificateAssetFrozenAuctionWithNoBids
+      fullName: Tests.AuctionClassificatorTests.ClassificateAssetFrozenAuctionWithNoBids
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.AuctionClassificatorTests.ClassificateCancelledBySellerAuction]'
+      uniqueId: 
+      name: ClassificateCancelledBySellerAuction
+      fullName: Tests.AuctionClassificatorTests.ClassificateCancelledBySellerAuction
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.AuctionClassificatorTests.ClassificatePaidAuction]'
+      uniqueId: 
+      name: ClassificatePaidAuction
+      fullName: Tests.AuctionClassificatorTests.ClassificatePaidAuction
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.AuctionClassificatorTests.ClassificatePayingAuctionWithBids]'
+      uniqueId: 
+      name: ClassificatePayingAuctionWithBids
+      fullName: Tests.AuctionClassificatorTests.ClassificatePayingAuctionWithBids
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.AuctionClassificatorTests.ClassificatePayingAuctionWithNoBids]'
+      uniqueId: 
+      name: ClassificatePayingAuctionWithNoBids
+      fullName: Tests.AuctionClassificatorTests.ClassificatePayingAuctionWithNoBids
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.AuctionClassificatorTests.ClassificateStartedAuctionWithBids]'
+      uniqueId: 
+      name: ClassificateStartedAuctionWithBids
+      fullName: Tests.AuctionClassificatorTests.ClassificateStartedAuctionWithBids
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.AuctionClassificatorTests.ClassificateStartedAuctionWithNoBids]'
+      uniqueId: 
+      name: ClassificateStartedAuctionWithNoBids
+      fullName: Tests.AuctionClassificatorTests.ClassificateStartedAuctionWithNoBids
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.AuctionClassificatorTests.CreateAuctionClassificator]'
+      uniqueId: 
+      name: CreateAuctionClassificator
+      fullName: Tests.AuctionClassificatorTests.CreateAuctionClassificator
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.AuthTestScript][suite]'
+      uniqueId: 
+      name: AuthTestScript
+      fullName: Tests.AuthTestScript
+      resultStatus: 1
+      duration: 0.0458129
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.AuthTestScript.validateLoginPasswordCorrect]'
+      uniqueId: 
+      name: validateLoginPasswordCorrect
+      fullName: Tests.AuthTestScript.validateLoginPasswordCorrect
+      resultStatus: 1
+      duration: 0.0203002
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.AuthTestScript.validateLoginPasswordEmpty]'
+      uniqueId: 
+      name: validateLoginPasswordEmpty
+      fullName: Tests.AuthTestScript.validateLoginPasswordEmpty
+      resultStatus: 1
+      duration: 0.000748
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.AuthTestScript.validateLoginPasswordIncorrect]'
+      uniqueId: 
+      name: validateLoginPasswordIncorrect
+      fullName: Tests.AuthTestScript.validateLoginPasswordIncorrect
+      resultStatus: 1
+      duration: 0.0005306
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.AuthTestScript.validateLoginUsernameCorrect]'
+      uniqueId: 
+      name: validateLoginUsernameCorrect
+      fullName: Tests.AuthTestScript.validateLoginUsernameCorrect
+      resultStatus: 1
+      duration: 0.0004667
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.AuthTestScript.validateLoginUsernameEmpty]'
+      uniqueId: 
+      name: validateLoginUsernameEmpty
+      fullName: Tests.AuthTestScript.validateLoginUsernameEmpty
+      resultStatus: 1
+      duration: 0.0003933
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.AuthTestScript.validateLoginUsernameIncorrect]'
+      uniqueId: 
+      name: validateLoginUsernameIncorrect
+      fullName: Tests.AuthTestScript.validateLoginUsernameIncorrect
+      resultStatus: 1
+      duration: 0.000397
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.CalendarDeserializationTests][suite]'
+      uniqueId: 
+      name: CalendarDeserializationTests
+      fullName: Tests.CalendarDeserializationTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.CalendarDeserializationTests.dynamicLeagueWithMatchesWithNullGoalsReturnsLeagueInfo]'
+      uniqueId: 
+      name: dynamicLeagueWithMatchesWithNullGoalsReturnsLeagueInfo
+      fullName: Tests.CalendarDeserializationTests.dynamicLeagueWithMatchesWithNullGoalsReturnsLeagueInfo
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.CalendarDeserializationTests.dynamicLeagueWithMatchesWithoutAllRequiredFieldsReturnsNull]'
+      uniqueId: 
+      name: dynamicLeagueWithMatchesWithoutAllRequiredFieldsReturnsNull
+      fullName: Tests.CalendarDeserializationTests.dynamicLeagueWithMatchesWithoutAllRequiredFieldsReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.CalendarDeserializationTests.dynamicLeagueWithMatchesWithWithNullFieldsReturnsNull]'
+      uniqueId: 
+      name: dynamicLeagueWithMatchesWithWithNullFieldsReturnsNull
+      fullName: Tests.CalendarDeserializationTests.dynamicLeagueWithMatchesWithWithNullFieldsReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.CalendarDeserializationTests.dynamicLeagueWithoutAllRequiredFieldsReturnsNull]'
+      uniqueId: 
+      name: dynamicLeagueWithoutAllRequiredFieldsReturnsNull
+      fullName: Tests.CalendarDeserializationTests.dynamicLeagueWithoutAllRequiredFieldsReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.CalendarDeserializationTests.dynamicLeagueWithoutTeamsReturnsNull]'
+      uniqueId: 
+      name: dynamicLeagueWithoutTeamsReturnsNull
+      fullName: Tests.CalendarDeserializationTests.dynamicLeagueWithoutTeamsReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.CalendarDeserializationTests.dynamicLeagueWithTeamsInMatchesWithoutAllRequiredFieldsReturnsNull]'
+      uniqueId: 
+      name: dynamicLeagueWithTeamsInMatchesWithoutAllRequiredFieldsReturnsNull
+      fullName: Tests.CalendarDeserializationTests.dynamicLeagueWithTeamsInMatchesWithoutAllRequiredFieldsReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.CalendarDeserializationTests.dynamicLeagueWithTeamsInMatchesWithWithNullFieldsReturnsNull]'
+      uniqueId: 
+      name: dynamicLeagueWithTeamsInMatchesWithWithNullFieldsReturnsNull
+      fullName: Tests.CalendarDeserializationTests.dynamicLeagueWithTeamsInMatchesWithWithNullFieldsReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.CalendarDeserializationTests.dynamicTeamWithNullFieldsReturnsNull]'
+      uniqueId: 
+      name: dynamicTeamWithNullFieldsReturnsNull
+      fullName: Tests.CalendarDeserializationTests.dynamicTeamWithNullFieldsReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.CalendarDeserializationTests.dynamicTeamWithoutAllRequiredFieldsReturnsNull]'
+      uniqueId: 
+      name: dynamicTeamWithoutAllRequiredFieldsReturnsNull
+      fullName: Tests.CalendarDeserializationTests.dynamicTeamWithoutAllRequiredFieldsReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.CalendarDeserializationTests.emptyDynamicTeamsReturnsNull]'
+      uniqueId: 
+      name: emptyDynamicTeamsReturnsNull
+      fullName: Tests.CalendarDeserializationTests.emptyDynamicTeamsReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.CheckDoublePasswordTest][suite]'
+      uniqueId: 
+      name: CheckDoublePasswordTest
+      fullName: Tests.CheckDoublePasswordTest
+      resultStatus: 1
+      duration: 0.0329643
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.CheckDoublePasswordTest.checkDefaultValues]'
+      uniqueId: 
+      name: checkDefaultValues
+      fullName: Tests.CheckDoublePasswordTest.checkDefaultValues
+      resultStatus: 1
+      duration: 0.0009656
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.CheckDoublePasswordTest.settingDifferentPasswds]'
+      uniqueId: 
+      name: settingDifferentPasswds
+      fullName: Tests.CheckDoublePasswordTest.settingDifferentPasswds
+      resultStatus: 1
+      duration: 0.0006893
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.CheckDoublePasswordTest.settingEqualPasswds]'
+      uniqueId: 
+      name: settingEqualPasswds
+      fullName: Tests.CheckDoublePasswordTest.settingEqualPasswds
+      resultStatus: 1
+      duration: 0.0005196
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.EthereumTestScript][suite]'
+      uniqueId: 
+      name: EthereumTestScript
+      fullName: Tests.EthereumTestScript
+      resultStatus: 1
+      duration: 0.4224705
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.EthereumTestScript.ReturnsDifferentValuesOnNewObject]'
+      uniqueId: 
+      name: ReturnsDifferentValuesOnNewObject
+      fullName: Tests.EthereumTestScript.ReturnsDifferentValuesOnNewObject
+      resultStatus: 1
+      duration: 0.1096225
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.EthereumTestScript.ReturnsSameValuesOnMultipleCalls]'
+      uniqueId: 
+      name: ReturnsSameValuesOnMultipleCalls
+      fullName: Tests.EthereumTestScript.ReturnsSameValuesOnMultipleCalls
+      resultStatus: 1
+      duration: 0.0949574
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.EthereumTestScript.ReturnValuesMakeSense]'
+      uniqueId: 
+      name: ReturnValuesMakeSense
+      fullName: Tests.EthereumTestScript.ReturnValuesMakeSense
+      resultStatus: 1
+      duration: 0.1978203
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.LandingBehaviourTestScript][suite]'
+      uniqueId: 
+      name: LandingBehaviourTestScript
+      fullName: Tests.LandingBehaviourTestScript
+      resultStatus: 1
+      duration: 0.9128395
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.LandingBehaviourTestScript.UserHasNoTeamsTestAndAssignsOne]'
+      uniqueId: 
+      name: UserHasNoTeamsTestAndAssignsOne
+      fullName: Tests.LandingBehaviourTestScript.UserHasNoTeamsTestAndAssignsOne
+      resultStatus: 1
+      duration: 0.512203
+      messages: 
+      output: 'Successfully assigned team to new player
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.LandingBehaviourTestScript.UserHasTeam]'
+      uniqueId: 
+      name: UserHasTeam
+      fullName: Tests.LandingBehaviourTestScript.UserHasTeam
+      resultStatus: 1
+      duration: 0.3015802
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.LeaderboardDeserializationTests][suite]'
+      uniqueId: 
+      name: LeaderboardDeserializationTests
+      fullName: Tests.LeaderboardDeserializationTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.LeaderboardDeserializationTests.dynamicLeagueWithoutAllRequiredFieldsReturnsNull]'
+      uniqueId: 
+      name: dynamicLeagueWithoutAllRequiredFieldsReturnsNull
+      fullName: Tests.LeaderboardDeserializationTests.dynamicLeagueWithoutAllRequiredFieldsReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.LeaderboardDeserializationTests.dynamicLeagueWithoutTeamsReturnsNull]'
+      uniqueId: 
+      name: dynamicLeagueWithoutTeamsReturnsNull
+      fullName: Tests.LeaderboardDeserializationTests.dynamicLeagueWithoutTeamsReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.LeaderboardDeserializationTests.dynamicLeagueWithTeamsWithoutAllRequiredFieldsReturnsNull]'
+      uniqueId: 
+      name: dynamicLeagueWithTeamsWithoutAllRequiredFieldsReturnsNull
+      fullName: Tests.LeaderboardDeserializationTests.dynamicLeagueWithTeamsWithoutAllRequiredFieldsReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.LeaderboardDeserializationTests.dynamicLeagueWithTeamsWithWithNullFieldsReturnsNull]'
+      uniqueId: 
+      name: dynamicLeagueWithTeamsWithWithNullFieldsReturnsNull
+      fullName: Tests.LeaderboardDeserializationTests.dynamicLeagueWithTeamsWithWithNullFieldsReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.LeaderboardDeserializationTests.dynamicTeamWithNullFieldsReturnsNull]'
+      uniqueId: 
+      name: dynamicTeamWithNullFieldsReturnsNull
+      fullName: Tests.LeaderboardDeserializationTests.dynamicTeamWithNullFieldsReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.LeaderboardDeserializationTests.dynamicTeamWithoutAllRequiredFieldsReturnsNull]'
+      uniqueId: 
+      name: dynamicTeamWithoutAllRequiredFieldsReturnsNull
+      fullName: Tests.LeaderboardDeserializationTests.dynamicTeamWithoutAllRequiredFieldsReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.LeaderboardDeserializationTests.emptyDynamicTeamsReturnsNull]'
+      uniqueId: 
+      name: emptyDynamicTeamsReturnsNull
+      fullName: Tests.LeaderboardDeserializationTests.emptyDynamicTeamsReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketPlayerDeserializationTests][suite]'
+      uniqueId: 
+      name: MarketPlayerDeserializationTests
+      fullName: Tests.MarketPlayerDeserializationTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketPlayerDeserializationTests.AuctionWithExtraFieldsReturnsAuction]'
+      uniqueId: 
+      name: AuctionWithExtraFieldsReturnsAuction
+      fullName: Tests.MarketPlayerDeserializationTests.AuctionWithExtraFieldsReturnsAuction
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketPlayerDeserializationTests.AuctionWithoutBidsByAuctionThrowsException]'
+      uniqueId: 
+      name: AuctionWithoutBidsByAuctionThrowsException
+      fullName: Tests.MarketPlayerDeserializationTests.AuctionWithoutBidsByAuctionThrowsException
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketPlayerDeserializationTests.AuctionWithoutCurrencyIdThrowsException]'
+      uniqueId: 
+      name: AuctionWithoutCurrencyIdThrowsException
+      fullName: Tests.MarketPlayerDeserializationTests.AuctionWithoutCurrencyIdThrowsException
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketPlayerDeserializationTests.AuctionWithoutPlayerByPlayerIdThrowsException]'
+      uniqueId: 
+      name: AuctionWithoutPlayerByPlayerIdThrowsException
+      fullName: Tests.MarketPlayerDeserializationTests.AuctionWithoutPlayerByPlayerIdThrowsException
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketPlayerDeserializationTests.AuctionWithoutPlayerIdThrowsException]'
+      uniqueId: 
+      name: AuctionWithoutPlayerIdThrowsException
+      fullName: Tests.MarketPlayerDeserializationTests.AuctionWithoutPlayerIdThrowsException
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketPlayerDeserializationTests.AuctionWithoutPriceThrowsException]'
+      uniqueId: 
+      name: AuctionWithoutPriceThrowsException
+      fullName: Tests.MarketPlayerDeserializationTests.AuctionWithoutPriceThrowsException
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketPlayerDeserializationTests.AuctionWithoutRndThrowsException]'
+      uniqueId: 
+      name: AuctionWithoutRndThrowsException
+      fullName: Tests.MarketPlayerDeserializationTests.AuctionWithoutRndThrowsException
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketPlayerDeserializationTests.AuctionWithoutStateThrowsException]'
+      uniqueId: 
+      name: AuctionWithoutStateThrowsException
+      fullName: Tests.MarketPlayerDeserializationTests.AuctionWithoutStateThrowsException
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketPlayerDeserializationTests.AuctionWithoutUUIDThrowsException]'
+      uniqueId: 
+      name: AuctionWithoutUUIDThrowsException
+      fullName: Tests.MarketPlayerDeserializationTests.AuctionWithoutUUIDThrowsException
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketPlayerDeserializationTests.AuctionWithoutValidUntilThrowsException]'
+      uniqueId: 
+      name: AuctionWithoutValidUntilThrowsException
+      fullName: Tests.MarketPlayerDeserializationTests.AuctionWithoutValidUntilThrowsException
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketPlayerDeserializationTests.CorrectAuctionReturnsAuction]'
+      uniqueId: 
+      name: CorrectAuctionReturnsAuction
+      fullName: Tests.MarketPlayerDeserializationTests.CorrectAuctionReturnsAuction
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketPlayerDeserializationTests.EmptyAuctionListReturnsEmptyList]'
+      uniqueId: 
+      name: EmptyAuctionListReturnsEmptyList
+      fullName: Tests.MarketPlayerDeserializationTests.EmptyAuctionListReturnsEmptyList
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketSignerTestScript][suite]'
+      uniqueId: 
+      name: MarketSignerTestScript
+      fullName: Tests.MarketSignerTestScript
+      resultStatus: 1
+      duration: 0.2290495
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketSignerTestScript.BidHiddenPrice]'
+      uniqueId: 
+      name: BidHiddenPrice
+      fullName: Tests.MarketSignerTestScript.BidHiddenPrice
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketSignerTestScript.CheckAuctionHiddenPrice]'
+      uniqueId: 
+      name: CheckAuctionHiddenPrice
+      fullName: Tests.MarketSignerTestScript.CheckAuctionHiddenPrice
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketSignerTestScript.CheckBuyOrder]'
+      uniqueId: 
+      name: CheckBuyOrder
+      fullName: Tests.MarketSignerTestScript.CheckBuyOrder
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketSignerTestScript.CheckSellOrder]'
+      uniqueId: 
+      name: CheckSellOrder
+      fullName: Tests.MarketSignerTestScript.CheckSellOrder
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketSignerTestScript.CheckSignCreateBid]'
+      uniqueId: 
+      name: CheckSignCreateBid
+      fullName: Tests.MarketSignerTestScript.CheckSignCreateBid
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketSignerTestScript.CheckSignSellMsg]'
+      uniqueId: 
+      name: CheckSignSellMsg
+      fullName: Tests.MarketSignerTestScript.CheckSignSellMsg
+      resultStatus: 1
+      duration: 0.0339321
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketSignerTestScript.CreateAuctionHashMessage]'
+      uniqueId: 
+      name: CreateAuctionHashMessage
+      fullName: Tests.MarketSignerTestScript.CreateAuctionHashMessage
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MarketSignerTestScript.CreateBidMessage]'
+      uniqueId: 
+      name: CreateBidMessage
+      fullName: Tests.MarketSignerTestScript.CreateBidMessage
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MutationTest][suite]'
+      uniqueId: 
+      name: MutationTest
+      fullName: Tests.MutationTest
+      resultStatus: 1
+      duration: 0.0123807
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.MutationTest.creationWithNullServer]'
+      uniqueId: 
+      name: creationWithNullServer
+      fullName: Tests.MutationTest.creationWithNullServer
+      resultStatus: 1
+      duration: 0.0053303
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.QueryTest][suite]'
+      uniqueId: 
+      name: QueryTest
+      fullName: Tests.QueryTest
+      resultStatus: 1
+      duration: 0.4051166
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.QueryTest.creationWithNullServer]'
+      uniqueId: 
+      name: creationWithNullServer
+      fullName: Tests.QueryTest.creationWithNullServer
+      resultStatus: 1
+      duration: 0.0010209
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.QueryTest.creationWithRightServer]'
+      uniqueId: 
+      name: creationWithRightServer
+      fullName: Tests.QueryTest.creationWithRightServer
+      resultStatus: 1
+      duration: 0.0014109
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.QueryTest.setQuery]'
+      uniqueId: 
+      name: setQuery
+      fullName: Tests.QueryTest.setQuery
+      resultStatus: 1
+      duration: 0.2913602
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.StorageTestScript][suite]'
+      uniqueId: 
+      name: StorageTestScript
+      fullName: Tests.StorageTestScript
+      resultStatus: 1
+      duration: 1.3133981
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.StorageTestScript.checkDeletePrivateKey]'
+      uniqueId: 
+      name: checkDeletePrivateKey
+      fullName: Tests.StorageTestScript.checkDeletePrivateKey
+      resultStatus: 1
+      duration: 0.203847
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.StorageTestScript.checkDeleteToken]'
+      uniqueId: 
+      name: checkDeleteToken
+      fullName: Tests.StorageTestScript.checkDeleteToken
+      resultStatus: 1
+      duration: 0.2004289
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.StorageTestScript.checkReplacePrivateKey]'
+      uniqueId: 
+      name: checkReplacePrivateKey
+      fullName: Tests.StorageTestScript.checkReplacePrivateKey
+      resultStatus: 1
+      duration: 0.2045075
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.StorageTestScript.checkReplaceToken]'
+      uniqueId: 
+      name: checkReplaceToken
+      fullName: Tests.StorageTestScript.checkReplaceToken
+      resultStatus: 1
+      duration: 0.200305
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.StorageTestScript.checkSavePrivateKey]'
+      uniqueId: 
+      name: checkSavePrivateKey
+      fullName: Tests.StorageTestScript.checkSavePrivateKey
+      resultStatus: 1
+      duration: 0.2014064
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.StorageTestScript.checkSaveToken]'
+      uniqueId: 
+      name: checkSaveToken
+      fullName: Tests.StorageTestScript.checkSaveToken
+      resultStatus: 1
+      duration: 0.2007813
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.TeamDeserializationTests][suite]'
+      uniqueId: 
+      name: TeamDeserializationTests
+      fullName: Tests.TeamDeserializationTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.TeamDeserializationTests.dynamicTeamWithEmptyIdReturnsNull]'
+      uniqueId: 
+      name: dynamicTeamWithEmptyIdReturnsNull
+      fullName: Tests.TeamDeserializationTests.dynamicTeamWithEmptyIdReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.TeamDeserializationTests.dynamicTeamWithEmptyRoosterReturnsNull]'
+      uniqueId: 
+      name: dynamicTeamWithEmptyRoosterReturnsNull
+      fullName: Tests.TeamDeserializationTests.dynamicTeamWithEmptyRoosterReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.TeamDeserializationTests.dynamicTeamWithoutAllRequiredFieldsReturnsNull]'
+      uniqueId: 
+      name: dynamicTeamWithoutAllRequiredFieldsReturnsNull
+      fullName: Tests.TeamDeserializationTests.dynamicTeamWithoutAllRequiredFieldsReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.TeamDeserializationTests.dynamicTeamWithSomeIncorrectPlayersReturnTeamWithAllCorrectPlayers]'
+      uniqueId: 
+      name: dynamicTeamWithSomeIncorrectPlayersReturnTeamWithAllCorrectPlayers
+      fullName: Tests.TeamDeserializationTests.dynamicTeamWithSomeIncorrectPlayersReturnTeamWithAllCorrectPlayers
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.TeamDeserializationTests.dynamicTeamWithSomePlayersWithoutAllRequiredFieldsReturnTeamWithAllCorrectPlayers]'
+      uniqueId: 
+      name: dynamicTeamWithSomePlayersWithoutAllRequiredFieldsReturnTeamWithAllCorrectPlayers
+      fullName: Tests.TeamDeserializationTests.dynamicTeamWithSomePlayersWithoutAllRequiredFieldsReturnTeamWithAllCorrectPlayers
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.TeamDeserializationTests.emptyDynamicTeamReturnsNull]'
+      uniqueId: 
+      name: emptyDynamicTeamReturnsNull
+      fullName: Tests.TeamDeserializationTests.emptyDynamicTeamReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.TeamPlayerDeserializationTests][suite]'
+      uniqueId: 
+      name: TeamPlayerDeserializationTests
+      fullName: Tests.TeamPlayerDeserializationTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.TeamPlayerDeserializationTests.dynamicPlayerWithNoIdReturnsNull]'
+      uniqueId: 
+      name: dynamicPlayerWithNoIdReturnsNull
+      fullName: Tests.TeamPlayerDeserializationTests.dynamicPlayerWithNoIdReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.TeamPlayerDeserializationTests.dynamicPlayerWithoutAllRequiredFieldsReturnsNull]'
+      uniqueId: 
+      name: dynamicPlayerWithoutAllRequiredFieldsReturnsNull
+      fullName: Tests.TeamPlayerDeserializationTests.dynamicPlayerWithoutAllRequiredFieldsReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    - id: '[EditModeTests][Tests.TeamPlayerDeserializationTests.nullDynamicPlayerReturnsNull]'
+      uniqueId: 
+      name: nullDynamicPlayerReturnsNull
+      fullName: Tests.TeamPlayerDeserializationTests.nullDynamicPlayerReturnsNull
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 
+      parentUniqueId: 
+    m_ResultText: LandingBehaviourTestScript (0,913s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: d66f5b01
+      m_LastClickedID: 22769622
+      m_ExpandedIDs: 4fd3139ba48efb9fefad45adb6a796b22103d6ead66f5b013beef202a5bcbd10a72140134ca4c44c45d90550ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneHierarchyWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1479
+    y: 0
+    width: 441
+    height: 950
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1479
+    y: 110
+    width: 439
+    height: 931
+  m_ViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: aef0ffff6afbffffae2f0000c62f0000ee2f000004300000
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 13}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 7c830d5ee5bd097ae851b368a9da8cea

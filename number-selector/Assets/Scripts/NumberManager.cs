@@ -119,6 +119,8 @@ public class NumberManager : MonoBehaviour
         int buttonsLength = numberButtons.Length;
         currentButtonIdx = Random.Range(0, buttonsLength - 1);
 
+        int firstErrorNumber = -1;
+
         for (int i = 0; i < buttonsLength; i++)
         {
             var button = numberButtons[i];
@@ -131,7 +133,9 @@ public class NumberManager : MonoBehaviour
                 int errorNumber;
 
                 do errorNumber = generateNumber();
-                while (errorNumber == currentNumber);
+                while (errorNumber == currentNumber || errorNumber == firstErrorNumber);
+
+                firstErrorNumber = errorNumber;
 
                 button.SetNumber(errorNumber);
             }
