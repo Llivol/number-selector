@@ -2,11 +2,9 @@
 
 public class NumberManager : MonoBehaviour
 {
-    private const int MIN_VALUE = 1;
-    private const int MAX_VALUE = 10000000;
-
     [SerializeField] private NumberText numberText;
     private int currentNumber;
+    private int difficulty = 0;
 
     private void Start()
     {
@@ -16,6 +14,6 @@ public class NumberManager : MonoBehaviour
 
     private void generateNumber()
     {
-        currentNumber = Random.Range(MIN_VALUE, MAX_VALUE);
+        currentNumber = Random.Range(Config.MIN_VALUE, Config.MAX_VALUES[difficulty]);
     }
 }

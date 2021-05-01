@@ -131,9 +131,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f33d09150fddac3698f579675f415d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btnNumber: {fileID: 4406925510976211060}
-  imgBackground: {fileID: 8948999743144036290}
-  txtNumber: {fileID: 3801605906917524131}
+  btnFade: {fileID: 4406925510976211060}
+  imgFade: {fileID: 8948999743144036290}
+  txtFade: {fileID: 3801605906917524131}
 --- !u!1 &5858481984497894055
 GameObject:
   m_ObjectHideFlags: 0
