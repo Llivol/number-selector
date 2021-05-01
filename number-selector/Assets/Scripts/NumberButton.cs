@@ -11,13 +11,14 @@
     {
         if (number == NumberManager.Instance.GetCurrentNumber())
         {
-            setCorrectColor();
+            SetCorrectColor();
             NumberManager.Instance.OnClickCorrect();
         }
         else
         {
             setWrongColor();
             NumberManager.Instance.OnClickError();
+            Hide();
         }
     }
 
@@ -27,7 +28,7 @@
         txtFade.color = Config.COLOR_TXT_DEFAULT;
     }
 
-    private void setCorrectColor()
+    public void SetCorrectColor()
     {
         imgFade.color = Config.COLOR_BG_CORRECT;
         txtFade.color = Config.COLOR_TXT_CORRECT;

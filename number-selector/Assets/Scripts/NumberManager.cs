@@ -14,7 +14,7 @@ public class NumberManager : MonoBehaviour
     [SerializeField] private NumberButton[] numberButtons;
 
     private int correctCount = 0;
-    private int wrongCount = 0; 
+    private int wrongCount = 0;
     private int currentNumber;
     private int currentButtonIdx;
     private int difficulty;
@@ -52,22 +52,27 @@ public class NumberManager : MonoBehaviour
 
         this.difficulty = difficulty;
 
-        StartCoroutine(StartRound());
+        StartCoroutine(startRound());
     }
 
     public void OnClickCorrect()
     {
         correctCount++;
         updateScore();
+
+        StartCoroutine(finishRound());
     }
 
     public void OnClickError()
     {
         wrongCount++;
         updateScore();
+
+        lives--;
+        if (lives == 0) StartCoroutine(finishRound());
     }
 
-    private IEnumerator StartRound()
+    private IEnumerator startRound()
     {
         yield return new WaitForSeconds(Config.FADE_TIME_IN_SECONDS);
 
@@ -85,6 +90,27 @@ public class NumberManager : MonoBehaviour
         showNumberButtons();
     }
 
+    private IEnumerator finishRound()
+    {
+        int buttonsLength = numberButtons.Length;
+        for (int i = 0; i < buttonsLength; i++)
+        {
+            var button = numberButtons[i];
+            if (i == currentButtonIdx)
+            {
+                numberButtons[currentButtonIdx].SetInteractable(false);
+                numberButtons[currentButtonIdx].SetCorrectColor();
+            }
+            else if (button.IsShown()) button.Hide();
+        }
+
+        yield return new WaitForSeconds(Config.FADE_TIME_IN_SECONDS);
+
+        numberButtons[currentButtonIdx].Hide();
+
+        StartCoroutine(startRound());
+    }
+
     private void showNumberButtons()
     {
         int buttonsLength = numberButtons.Length;
@@ -93,6 +119,8 @@ public class NumberManager : MonoBehaviour
         for (int i = 0; i < buttonsLength; i++)
         {
             var button = numberButtons[i];
+
+            button.ResetColor();
 
             if (i == currentButtonIdx) button.SetNumber(currentNumber);
             else

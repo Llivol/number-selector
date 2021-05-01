@@ -16,7 +16,7 @@ public class NumberText : MonoBehaviour
 
     public void SetNumberToText(int num)
     {
-        txtNumber.text = num.ToString() + "- " + numberToText(num);
+        txtNumber.text = numberToText(num);
     }
 
     private string numberToText(int num)
