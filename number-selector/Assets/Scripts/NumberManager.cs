@@ -21,7 +21,6 @@ public class NumberManager : MonoBehaviour
 
     private void Awake()
     {
-
         if (Instance == null) { Instance = this; }
         else if (Instance != this) { throw new DuplicateSingletonException("NumberManager"); }
 
@@ -36,39 +35,6 @@ public class NumberManager : MonoBehaviour
             button.SetDifficulty(i);
             button.Show();
         }
-    }
-
-    public int GetCurrentNumber()
-    {
-        return currentNumber;
-    }
-
-    public void SetDifficulty(int difficulty)
-    {
-        int buttonsLength = difficultyButtons.Length;
-        for (int i = 0; i < buttonsLength; i++) difficultyButtons[i].Hide();
-        txtDifficulty.Hide();
-
-        this.difficulty = difficulty;
-
-        StartCoroutine(startRound());
-    }
-
-    public void OnClickCorrect()
-    {
-        correctCount++;
-        updateScore();
-
-        StartCoroutine(finishRound());
-    }
-
-    public void OnClickError()
-    {
-        wrongCount++;
-        updateScore();
-
-        lives--;
-        if (lives == 0) StartCoroutine(finishRound());
     }
 
     private IEnumerator startRound()
@@ -110,6 +76,44 @@ public class NumberManager : MonoBehaviour
         StartCoroutine(startRound());
     }
 
+    public int GetCurrentNumber()
+    {
+        return currentNumber;
+    }
+
+    public void SetDifficulty(int difficulty)
+    {
+        int buttonsLength = difficultyButtons.Length;
+        for (int i = 0; i < buttonsLength; i++) difficultyButtons[i].Hide();
+        txtDifficulty.Hide();
+
+        this.difficulty = difficulty;
+
+        StartCoroutine(startRound());
+    }
+
+    public void OnClickCorrect()
+    {
+        correctCount++;
+        updateScore();
+
+        StartCoroutine(finishRound());
+    }
+
+    public void OnClickError()
+    {
+        wrongCount++;
+        updateScore();
+
+        lives--;
+        if (lives == 0) StartCoroutine(finishRound());
+    }
+
+    private int generateNumber()
+    {
+        return Random.Range(Config.MIN_NUMBER, Config.MAX_NUMBER[difficulty]);
+    }
+
     private void showNumberButtons()
     {
         int buttonsLength = numberButtons.Length;
@@ -134,11 +138,6 @@ public class NumberManager : MonoBehaviour
 
             button.Show();
         }
-    }
-
-    private int generateNumber()
-    {
-        return Random.Range(Config.MIN_NUMBER, Config.MAX_NUMBER[difficulty]);
     }
 
     private void updateScore()
