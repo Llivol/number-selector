@@ -62,6 +62,13 @@ La clase _Config_ es una clase estática que almacena variables _readonly_ que s
 * Permite reutilizar valores como el tiempo de las animaciones de aparición y desaparición sin tener que replicarlo en cada una de las clases _Fade_.
 * Permite modificar atributos importantes como el rango de valores de los números o el color de los botones sin tener que buscarlos en diversos ficheros.
 
+## La experiencia de usuario
+
+Se han implementado un par de funcionalidades menores para mejorar la experiencia de usuario:
+
+* Los botones tienen un color de _highlight_ en amarillo. Este color se muestra cuando se situa el cursor sobre el botón siempre y cuando se pueda interaccionar con este (_interactable == true_). Se creía necesario ya que los botones solo aceptan clicks cuando son completamente visibles.
+* Se ha retrasado un poco la desaparición del botón del número correcto respecto a los botones con números incorrectos. Este ligero cambio permite diferenciar claramente el resultado correcto al terminar una ronda, ya sea con acierto o con fallo. 
+
 ## EXTRA: El selector de dificultad
 
 Se ha implementado una funcionalidad extra no requerida: un **selector de dificultad**. Esta funcionalidad modifica ligeramente el ciclo de ejecución que se pedía en el enunciado.
