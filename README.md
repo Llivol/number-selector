@@ -53,7 +53,7 @@ Para poder realizar esta transformación se ha implementado una función recursi
 
 ### Importante!
 
-Esta función no soporta el numero **0**, ya que rompería funcionalidad en la gran mayoría de múltiplos de diez. 
+Esta función no soporta el numero **0**, ya que rompería su funcionamiento en la gran mayoría de múltiplos de diez. 
 
 ## El clase _Config_
 
@@ -66,8 +66,8 @@ La clase _Config_ es una clase estática que almacena variables _readonly_ que s
 
 Se ha implementado una funcionalidad extra no requerida: un **selector de dificultad**. Esta funcionalidad modifica ligeramente el ciclo de ejecución que se pedía en el enunciado.
 
-Cuando se inicia la aplicación, antes de que aparezca el primer número random, se le mostrará al usuario un selector de dificultad con tres opciones: *Fácil*, *Normal* y *Difícil*. Al hacer click en una de las tres opciones, el selector de dificultad se desvanecerá y aparecerá el primer número. A partir de este punto el funcionamiento de la aplicación es el definido por el enunciado. Una vez seleccionada la dificultad, no se puede cambiar.
+Cuando se inicia la aplicación, antes de que aparezca el primer número aleatorio, se le mostrará al usuario un selector de dificultad con tres opciones: *Fácil*, *Normal* y *Difícil*. Al hacer click en una de las tres opciones, el selector de dificultad se desvanecerá y aparecerá el primer número aleatorio. A partir de este punto el funcionamiento de la aplicación es el definido por el enunciado. Una vez seleccionada la dificultad, no se puede cambiar.
 
-El nivel de dificultad escogido modifica el rango de valores que pueden tomar los números aleatorios. En el nivel **Fácil** solo aparecerán números entre el 1 y el 9, ambos incluidos; en el nivel **Normal** serán entre el 1 y el 999; y en el nivel **Difícil** los números podrán llegar hasta 9.999.999.
+El nivel de dificultad escogido define el rango de valores que pueden tomar los números aleatorios. En el nivel **Fácil** solo aparecerán números entre el 1 y el 9, ambos incluidos; en el nivel **Normal** serán entre el 1 y el 999; y en el nivel **Difícil** los números podrán llegar hasta 9.999.999.
 
 Se ha decidido implementar esta funcionalidad para demostrar las capacidades de la función _numberToText_. Además, gracias a los componentes _Fade_ prácticamente no se ha tenido que crear código extra para esta funcionalidad. 
