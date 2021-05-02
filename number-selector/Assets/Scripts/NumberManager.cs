@@ -37,6 +37,39 @@ public class NumberManager : MonoBehaviour
         }
     }
 
+    public int GetCurrentNumber()
+    {
+        return currentNumber;
+    }
+
+    public void SetDifficulty(int difficulty)
+    {
+        int buttonsLength = difficultyButtons.Length;
+        for (int i = 0; i < buttonsLength; i++) difficultyButtons[i].Hide();
+        txtDifficulty.Hide();
+
+        this.difficulty = difficulty;
+
+        StartCoroutine(startRound());
+    }
+
+    public void OnClickCorrect()
+    {
+        correctCount++;
+        updateScore();
+
+        StartCoroutine(finishRound());
+    }
+
+    public void OnClickError()
+    {
+        wrongCount++;
+        updateScore();
+
+        lives--;
+        if (lives == 0) StartCoroutine(finishRound());
+    }
+
     private IEnumerator startRound()
     {
         yield return new WaitForSeconds(Config.FADE_TIME_IN_SECONDS);
@@ -74,39 +107,6 @@ public class NumberManager : MonoBehaviour
         numberButtons[currentButtonIdx].Hide();
 
         StartCoroutine(startRound());
-    }
-
-    public int GetCurrentNumber()
-    {
-        return currentNumber;
-    }
-
-    public void SetDifficulty(int difficulty)
-    {
-        int buttonsLength = difficultyButtons.Length;
-        for (int i = 0; i < buttonsLength; i++) difficultyButtons[i].Hide();
-        txtDifficulty.Hide();
-
-        this.difficulty = difficulty;
-
-        StartCoroutine(startRound());
-    }
-
-    public void OnClickCorrect()
-    {
-        correctCount++;
-        updateScore();
-
-        StartCoroutine(finishRound());
-    }
-
-    public void OnClickError()
-    {
-        wrongCount++;
-        updateScore();
-
-        lives--;
-        if (lives == 0) StartCoroutine(finishRound());
     }
 
     private int generateNumber()
